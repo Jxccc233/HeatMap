@@ -1,6 +1,5 @@
 #include "PlaybackHeatMapGenerator.h"
 
-
 QPixmap PlaybackHeatMapGenerator::generateHeatMap(const std::vector<int>& data, const QPixmap& background)
 {
     if (data.size() != HEATMAP_SIZE * HEATMAP_SIZE)
